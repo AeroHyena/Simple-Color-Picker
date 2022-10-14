@@ -1,0 +1,18 @@
+body {
+  background-color: white;
+}
+
+#color_wheel {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+
+  background-color: red;
+  background-image: linear-gradient(to right, cyan, yellow, magenta, cyan);
+}
+
+#result {
+  margin: 25px;
+  padding-left: 15px;
+  border: 1px solid lightgrey;
+  width: 125px;
+}
